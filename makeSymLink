@@ -1,0 +1,4 @@
+#!/bin/bash
+SCRIPT=`realpath -s $0`
+SCRIPTPATH=`dirname $SCRIPT`
+ln -s "${SCRIPTPATH}/ysh.php" /usr/local/bin/ysh

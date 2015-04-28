@@ -1,0 +1,6 @@
+[example-host]
+alias=example,ehost
+host=example.org
+user=exampleuser
+; if not defined defaults to 22
+port=50

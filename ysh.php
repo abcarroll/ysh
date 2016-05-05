@@ -1,6 +1,6 @@
 #!/usr/bin/env php
 <?php
-$configFile = $_SERVER['HOME'] . '/.ysh-config';
+$configFile = $_SERVER['HOME'] . '/.ysh.ini';
 $data = parse_ini_file($configFile, true);
 
 if(empty($argv[1])) { 
